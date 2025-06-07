@@ -1,0 +1,25 @@
+@use './variables' as var;
+
+@keyframes pulsing {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+@keyframes swipedown {
+  0% {
+    transform: translateY(-3%);
+  }
+
+  50% {
+    transform: translateY(2%);
+  }
+  100% {
+    transform: translateY(-3%);
+  }
+}
